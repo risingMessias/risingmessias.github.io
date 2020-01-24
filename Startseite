@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="blogstyle.css" type:="text/css">
+        <script src="script.js">java</script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <a id="header-title" href="blog.html"> mein Lehrerleben</a>
+                <ul id="header-nav">
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="mailto:grauel.thomas89@gmail.com">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        
+<!-- Vorlage -->       
+        
+        <div id="content" hidden>
+            <div class="container">
+                <div class="post">
+                    <div class="post-author">
+                        <img src="https://pbs.twimg.com/profile_images/378800000477466489/58ff5faac52b276e8003fd9cefcabac6_400x400.jpeg"><span>Thomas</span>
+                    </div>
+                <p class="post-date">22.01.2020</p>
+                <h3 class="post-title">Becoming a new developper</h3>
+                    <div class="post-content">
+                        <p> If somebody would have told me a week ago that i would be be able to make a <strong>website</strong>, I would not have believed him.</p>
+                        <p>Just a few days later, I came across <a href="https://getmimo.com">Mimo</a> and started to Work on a <em>real</em> blog.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--Eintrag-->
+        <div id="content" hidden>
+            <div class="post-container">
+                <div class="post">
+                    <div class="post-author">
+                        <img src="https://pbs.twimg.com/profile_images/378800000477466489/58ff5faac52b276e8003fd9cefcabac6_400x400.jpeg"><span>Thomas</span>
+                    </div>
+                <p class="post-date">22.01.2020</p>
+                <h3 class="post-title">Becoming a new developper</h3>
+                    <div class="post-content">
+                        <p> If somebody would have told me a week ago that i would be be able to make a <strong>website</strong>, I would not have believed him.</p>
+                        <p>Just a few days later, I came across <a href="https://getmimo.com">Mimo</a> and started to Work on a <em>real</em> blog.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+            <div class="post-container" hidden>
+                <div class="post">
+                    <div class="post-author">
+                        <img src="https://pbs.twimg.com/profile_images/378800000477466489/58ff5faac52b276e8003fd9cefcabac6_400x400.jpeg"><span>Thomas</span>
+                    </div>
+                <p class="post-date">22.01.2020</p>
+                <h3 class="post-title">Becoming a new developper</h3>
+                    <div class="post-content">
+                        <p> If somebody would have told me a week ago that i would be be able to make a <strong>website</strong>, I would not have believed him.</p>
+                        <p>Just a few days later, I came across <a href="https://getmimo.com">Mimo</a> and started to Work on a <em>real</em> blog.</p>
+                    </div>
+                </div>
+            </div>
+        
+        <div id="footer">
+            <div class="container">
+                <div class="column">
+                    <h4>My Links</h4>
+                    <p>
+                        <a href="#">Twitter</a><br>
+                        <a href="#">Facebook</a>
+                    </p>
+                </div>
+                <div>
+                    <h4> My Story</h4>
+                    <p>Hi there! I'm aspiring web developer.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
